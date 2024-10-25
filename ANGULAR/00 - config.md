@@ -36,15 +36,16 @@ ng build *nomeProgetto* || ng b *nomeProgetto*
 
 ### create component
 ```bash
-ng generate component *nomeComponent* test/test  <!-- in questo modo genera una cartella test con un component test all'interno -->
+ng generate component test/test  <!-- in questo modo genera una cartella test con un component test all'interno -->
 ```
 
 ### create class
 ```bash
-ng generate class Models/Persona 
+ng generate class models/persona 
 ```
 
 ### create service
 ```bash
-ng generate service services/ProdottoService 
+ng generate service services/prodotto   
 ```
+// (lo chiamerà prodotto.service)
